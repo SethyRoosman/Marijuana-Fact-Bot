@@ -10,10 +10,10 @@ textFacts = marijuana_text.readlines()
 #print(textRead)
 
 # Keys
-consumer_key = 'ODnCYoybLhPB6aB3bLS6Zoq4T'
-consumer_secret = 'HMGzEImpfzkVghlttCSBWt8IHbwo5fDxisWolPIIf6PATiWo2o'
-access_token = '1068319148806160385-k32nikUCIoedgFtYSlk6TJ51SdDiwn'
-access_token_secret = 'Oe7sRb1To921btVpwJR3fLjr2qzaDQ09gwM9EWkr2rNSG'
+consumer_key = 'XXXXXXXXXXXXXXXXXXXXXX'
+consumer_secret = 'XXXXXXXXXXXXXXXXXXXXXX'
+access_token = 'XXXXXXXXXXXXXXXXXXXXXX'
+access_token_secret = 'XXXXXXXXXXXXXXXXXXXXXX'
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
